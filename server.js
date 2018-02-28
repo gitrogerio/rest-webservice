@@ -21,7 +21,7 @@ var connection  = require('express-myconnection'),
 app.use(
 
     connection(mysql,{
-        host     : 'us-cdbr-iron-east-05.cleardb.net:3306',
+        host     : 'us-cdbr-iron-east-05.cleardb.net',
         user     : 'b2d6de3457768a',
         password : 'c0c58981',
         database : 'heroku_8fac815f167a330',
